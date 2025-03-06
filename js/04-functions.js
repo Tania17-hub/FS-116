@@ -90,6 +90,7 @@
 
 // log;
 
+var x;
 //!======================================================
 
 // function sum(x, y) {
@@ -104,13 +105,13 @@
 
 //!======================================================
 
-// function sayHello() {
-//   const userName = prompt('Enter your name');
-//   const message = `Hello ${userName}`;
-//   return message;
-// }
+function sayHello() {
+  const userName = prompt('Enter your name');
+  const message = `Hello ${userName}`;
+  return message;
+}
 
-// const message1 = sayHello();
+const message1 = sayHello();
 // document.body.innerHTML = message1;
 
 //!======================================================
@@ -134,7 +135,7 @@
 //   const heightNum = parseFloat(validHeight);
 
 //   const res = weightNum / heightNum ** 2;
-//   return res.toFixed(2);
+//   return res.toFixed(2); 0.92345923487364278346523
 // }
 
 // const myBmi = calcBMI('88,3', '1.75');
